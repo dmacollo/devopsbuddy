@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DevopsbuddytempApplication {
+public class DevopsbuddyApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DevopsbuddytempApplication.class, args);
+		SpringApplication.run(DevopsbuddyApplication.class, args);
 	}
 }
