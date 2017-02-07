@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="common/header::common-header"/>
+<body>
+	<div th:replace="common/navbar::common-navbar">Navbar here</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="md-col-12">
+				<div class="jumbotron">
+					<h1 class="text-center" th:text="#{copy.h1.text}"></h1>
+					<p class="lead" th:text="#{copy.p.lead}"></p>					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div th:replace="common/header::before-body-scripts">Bootstrap Scripts here</div>
+</body>
+</html>
